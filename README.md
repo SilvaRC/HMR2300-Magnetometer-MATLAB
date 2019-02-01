@@ -17,4 +17,13 @@ The response must be "Re-enter". It works with any combinations of characters no
 
 ###########################################
 
+Testing the sensor outside MATLAB:
+A good software to test the sensor outside the MATLAB environment is Termite. Termite must be configured with the settings in the image below.
+
+<IMAGE HERE>
+
+Note: If the sensor is connected to Termite, it will not respond to commands in MATLAB. In order to use it in MATLAB, you must disconnect the sensor from Termite. The same occurs if you migrate from MATLAB to Termite: you must close and clear the sensor serial objects constructed into MATLAB before working with Termite.
+
+###########################################
+
 Some tags to facilitate searchs: HMR2300, HMR 2300, 3-axis magnetometer, MATLAB, data acquisition, Darth Vader, Obi-Wan Kennobi
